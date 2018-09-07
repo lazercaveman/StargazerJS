@@ -4,6 +4,8 @@ Just have a look at this pen https://codepen.io/lazercaveman/pen/eLeemN where I 
 
 ## How it works
 
+The StargazerJS setup can be simply done by a JavaScript Object.
+
 **Include stargazerLibrary**
 
 To seutup just place the code of the stargazerLibrary.js somwhere inside your Javascript Code
