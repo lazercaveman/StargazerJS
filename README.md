@@ -2,6 +2,8 @@
 
 Just have a look at this pen https://codepen.io/lazercaveman/pen/eLeemN where I generated stars with help of the stargazer library.
 
+## How it works
+
 **Include stargazerLibrary**
 
 To seutup just place the code of the stargazerLibrary.js somwhere inside your Javascript Code
@@ -57,6 +59,3 @@ setMorphSpeed: Number,
 `
 
 The "setMorphQuantity" property will set how many Elements will morph in a MorpSpeed execution.# stargazer
-# stargazer
-# StargazerJS
-# StargazerJS
