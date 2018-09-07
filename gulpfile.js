@@ -13,7 +13,7 @@ var gulp                    = require('gulp'),
     pug                     = require('gulp-pug');
 
 
-var src                     = './',
+var src                     = './example/',
     build                   = './build/';
 
     // Compile SASS
