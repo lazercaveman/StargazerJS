@@ -15,7 +15,7 @@ setStargazer = {
   // Item-position can be setted up as like css positions (absolute, fixed, sticky, etc.)
   setPosition: "absolute",
   // setBorderGap sets up the minimum gap to the edge of the container-element
-  setBorderGap: 100,
+  setBorderGap: 0,
   // Morphclass will be the classname of morphed Elements to set morph state of generated elements
   setMorphClass: "blink",
   // Morphspeed will set how fast the Morph will be executed in milliseconds
