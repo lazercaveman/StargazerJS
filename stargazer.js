@@ -20,6 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
             generateItemContent: "STRING",
             // Item-position can be setted up as like css positions (absolute, fixed, sticky, etc.)
             setPosition: "CSS related positioning (absolute, fixed, sticky, etc.)",
+            // setBorderGap sets up the minimum gap to the edge of the container-element
+            setBorderGap: "NUMBER",
             // Morphclass will be the classname of morphed Elements to set morph state of generated elements
             setMorphClass: "STRING",
             // Morphspeed will set how fast the Morph will be executed in milliseconds
@@ -73,9 +75,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // Select every star and reposition it by coincidence
         GENERATEDITEM.forEach( function() {
         // defining x coordinate
-            let x = Math.floor((Math.random() * 95) + 1);
+            let x = Math.floor((Math.random() * setStargazer["setBorderGap"]) + 1);
         // defining y coordinate
-            let y = Math.floor((Math.random() * 95) + 1);
+            let y = Math.floor((Math.random() * setStargazer["setBorderGap"]) + 1);
         // Setting star position x & Y
             GENERATEDITEM[i].style.left = x + "%";
             GENERATEDITEM[i].style.top = y + "%";
@@ -104,4 +106,4 @@ document.addEventListener("DOMContentLoaded", function() {
     // Let the magic beginn
         setInterval( blink, setStargazer["setMorphSpeed"]/setStargazer["setMorphQuantity"] );
   
-  });
+});
