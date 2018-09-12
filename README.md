@@ -1,10 +1,6 @@
 ## What is StargazerJS good for## What is StargazerJS good for
 
-To understand what can be done with StargazerJS just have a look at these pens on CodePen:
-
-=> Space Scenario: https://codepen.io/lazercaveman/pen/eLeemN
-
-=> Cookie Monster: https://codepen.io/lazercaveman/pen/BOxymM
+To understand what can be done with StargazerJS just have a look at these pens on CodePen: https://codepen.io/collection/nqmzbK/
 
 ## How it works
 
