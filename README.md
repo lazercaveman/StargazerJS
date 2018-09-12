@@ -2,7 +2,7 @@
 
 To understand what can be done with StargazerJS just have a look at these pens on CodePen:
 
-=> Space Scenarion: https://codepen.io/lazercaveman/pen/eLeemN
+=> Space Scenario: https://codepen.io/lazercaveman/pen/eLeemN
 
 => Cookie Monster: https://codepen.io/lazercaveman/pen/BOxymM
 
