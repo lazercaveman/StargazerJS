@@ -1,6 +1,9 @@
-## What is StargazerJS good for
+## What is StargazerJS good for## What is StargazerJS good for
 
-Just have a look at this pen https://codepen.io/lazercaveman/pen/eLeemN where I generated stars with help of the stargazer framework.
+To understand what can be done with StargazerJS just have a look at these pens on CodePen:
+
+> Space Scenarion: https://codepen.io/lazercaveman/pen/eLeemN 
+> Cookie Monster: https://codepen.io/lazercaveman/pen/BOxymM
 
 ## How it works
 
