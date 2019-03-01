@@ -1,4 +1,4 @@
-## What is StargazerJS good for## What is StargazerJS good for
+## What is StargazerJS good for
 
 To understand what can be done with StargazerJS just have a look at these pens on CodePen: https://codepen.io/collection/nqmzbK/
 
@@ -8,11 +8,11 @@ The StargazerJS setup can be simply done by a JavaScript Object.
 
 **Include StargazerJS Framework**
 
-To seutup just place the code of the StargazerJS Framework.js somwhere inside your Javascript Code
+To seutup just place the code of the StargazerJS somwhere inside your Javascript Code
 
 **StargazerJS Framework object Setup**
 
-To seutup the StargazerJS Framework just setup a JavaScript object named setStargazer.
+To seutup the StargazerJS just setup a JavaScript object named setStargazer.
 
 `
 setStargazer = { };
