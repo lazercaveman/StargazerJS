@@ -54,7 +54,7 @@ The "setMorphClass" property allows the designer to set up a additional classnam
 setMorphSpeed: Number,
 `
 
-The "setMorphSpeed" property will set the interval speed, the StargazerJS Framework will ad and remove the morphClass to an generated element.
+The "setMorphSpeed" property will set the interval speed, StargazerJS will ad and remove the morphClass to an generated element.
 
 `
 setMorphSpeed: Number,
