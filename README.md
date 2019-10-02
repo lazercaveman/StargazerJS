@@ -6,11 +6,11 @@ To understand what can be done with StargazerJS just have a look at these pens o
 
 The StargazerJS setup can be simply done by a JavaScript Object.
 
-**Include StargazerJS Framework**
+**Include StargazerJS**
 
 To seutup just place the code of the StargazerJS somwhere inside your Javascript Code
 
-**StargazerJS Framework object Setup**
+**StargazerJS object Setup**
 
 To seutup the StargazerJS just setup a JavaScript object named setStargazer.
 
@@ -30,19 +30,19 @@ quantity: Number,
 selectContainer: String,
 `
 
-The "selectContainer" property will define the parent element of the elements which will be generated throug the StargazerJS Framework functions. The selection can throug an id (start string with #) or class name (start string with .) of an element. The value of the selectContainer property should be a string.
+The "selectContainer" property will define the parent element of the elements which will be generated throug StargazerJS functions. The selection can throug an id (start string with #) or class name (start string with .) of an element. The value of the selectContainer property should be a string.
 
 `
 generateItemTag: String,
 `
 
-The "generateItemTag" property will setup which kind of HTML-Element will be outputted by the StargazerJS Framework. You can define it as you like. It can be a div, span, paragraph or wht ever you like. Currently Mediacontent like images or videos are not alowed, but will be possible to add in a later version.
+The "generateItemTag" property will setup which kind of HTML-Element will be outputted by StargazerJS. You can define it as you like. It can be a div, span, paragraph or wht ever you like. Currently Mediacontent like images or videos are not alowed, but will be possible to add in a later version.
 
 `
 generateItemClass: String,
 `
 
-The fundamental idea of the StargazerJS Framework is to generate a high quantity of duplicated elements, inside a parent element to subsequently style them by simple CSS, whithout having JavaScript based knowledge. So the Elements can be fitted by a custom class name to set them as the designer wants them to.
+The fundamental idea of StargazerJS is to generate a high quantity of duplicated elements, inside a parent element to subsequently style them by simple CSS, whithout having JavaScript based knowledge. So the Elements can be fitted by a custom class name to set them as the designer wants them to.
 
 `
 setMorphClass: String,
