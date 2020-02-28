@@ -1,6 +1,6 @@
 ## What is StargazerJS good for
 
-To understand what can be done with StargazerJS just have a look at these pens on CodePen: https://codepen.io/collection/nqmzbK/
+To understand what can be done with StargazerJS just have a look at these pens on CodePen: https://codepen.io/collection/nqmzbK/, aynway this is more about an experimental approach, allowing the output of multiple HTML elements at different positions within a defined container.
 
 ## How it works
 
