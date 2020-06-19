@@ -1,4 +1,4 @@
-## What is StargazerJS good for## What is StargazerJS good for
+## What is StargazerJS good for
 
 To understand what can be done with StargazerJS just have a look at these pens on CodePen: https://codepen.io/collection/nqmzbK/
 
@@ -6,13 +6,13 @@ To understand what can be done with StargazerJS just have a look at these pens o
 
 The StargazerJS setup can be simply done by a JavaScript Object.
 
-**Include StargazerJS Framework**
+**Include StargazerJS**
 
-To seutup just place the code of the StargazerJS Framework.js somwhere inside your Javascript Code
+To seutup just place the code of the StargazerJS somwhere inside your Javascript Code
 
-**StargazerJS Framework object Setup**
+**StargazerJS object Setup**
 
-To seutup the StargazerJS Framework just setup a JavaScript object named setStargazer.
+To seutup the StargazerJS just setup a JavaScript object named setStargazer.
 
 `
 setStargazer = { };
@@ -30,19 +30,19 @@ quantity: Number,
 selectContainer: String,
 `
 
-The "selectContainer" property will define the parent element of the elements which will be generated throug the StargazerJS Framework functions. The selection can throug an id (start string with #) or class name (start string with .) of an element. The value of the selectContainer property should be a string.
+The "selectContainer" property will define the parent element of the elements which will be generated throug the StargazerJS functions. The selection can throug an id (start string with #) or class name (start string with .) of an element. The value of the selectContainer property should be a string.
 
 `
 generateItemTag: String,
 `
 
-The "generateItemTag" property will setup which kind of HTML-Element will be outputted by the StargazerJS Framework. You can define it as you like. It can be a div, span, paragraph or wht ever you like. Currently Mediacontent like images or videos are not alowed, but will be possible to add in a later version.
+The "generateItemTag" property will setup which kind of HTML-Element will be outputted by the StargazerJS. You can define it as you like. It can be a div, span, paragraph or wht ever you like. Currently Mediacontent like images or videos are not alowed, but will be possible to add in a later version.
 
 `
 generateItemClass: String,
 `
 
-The fundamental idea of the StargazerJS Framework is to generate a high quantity of duplicated elements, inside a parent element to subsequently style them by simple CSS, whithout having JavaScript based knowledge. So the Elements can be fitted by a custom class name to set them as the designer wants them to.
+The fundamental idea of StargazerJS is to generate a high quantity of duplicated elements, inside a parent element to subsequently style them by simple CSS, whithout having JavaScript based knowledge. So the Elements can be fitted by a custom class name to set them as the designer wants them to.
 
 `
 setMorphClass: String,
@@ -54,7 +54,7 @@ The "setMorphClass" property allows the designer to set up a additional classnam
 setMorphSpeed: Number,
 `
 
-The "setMorphSpeed" property will set the interval speed, the StargazerJS Framework will ad and remove the morphClass to an generated element.
+The "setMorphSpeed" property will set the interval speed, the StargazerJS will ad and remove the morphClass to an generated element.
 
 `
 setMorphSpeed: Number,
